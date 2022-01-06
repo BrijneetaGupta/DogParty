@@ -1,0 +1,141 @@
+/* Our CSS file. */
+
+:root {
+    --theme-color: #3F8DA7;
+  }
+body{
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration:none;
+}
+.center{
+    text-align: center;
+}
+#container, .content {
+width: 100%;
+height: 100%;
+}
+header{
+    background: #7fcacf;
+    color: white;
+    height: 50px;
+    padding: 20px 45px;
+    border-top: 1px solid var(--theme-color);
+    border-bottom: 1px solid var(--theme-color);
+}
+.site-logo, #site-navbar{
+    display: inline;
+}
+.site-logo img{
+    width: 55px;
+}
+.nav-list{
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+    margin: 0;
+}
+.nav-item{
+    padding: 17px 12px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-item:hover{
+    background: #3F8DA7;
+    color: white;
+    cursor: pointer;
+}
+.nav-item a{
+    color:white;
+}
+#site-hero{
+    background: url('images/banner.jpeg') no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+#site-hero h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+#site-hero img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 4px solid var(--theme-color);
+}
+#site-hero a{
+    margin: 45px auto;
+    padding: 4px;
+    display: block;
+    background: #fff;
+    color: var(--theme-color);
+    width: 7%;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    border: 3px solid var(--theme-color);
+}
+#site-hero a:hover{
+    background: var(--theme-color);
+    color: white;
+}
+
+.col-3{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 10px;
+}
+#main-content{
+    padding: 20px 45px;
+}
+#main-content img{
+    border-radius: 50%;
+    border: 3px solid var(--theme-color);
+    height: 170px;
+    width: 170px;
+    margin: 25px 0;
+}
+#main-content p{
+    margin-bottom: 40px;
+    font-size: 17px;
+    min-height: 102px;
+}
+#main-content a{
+    background: white;
+    border: 3px solid var(--theme-color);
+    color: var(--theme-color);
+    padding: 5px 14px;
+    text-decoration: none;
+}
+#main-content a:hover{
+    background: var(--theme-color);
+    color: white;
+}
+footer {
+    background: var(--theme-color);
+    color: #fff;
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+footer ul{
+    margin: 40px 0;
+}
+footer li {
+    display: inline-block;
+    margin: 0 25px;
+}
+footer li img{
+    width:35px;
+}
+footer a{
+    text-decoration: underline;
+    color: #fff;
+}
+  
